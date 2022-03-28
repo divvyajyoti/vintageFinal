@@ -1,0 +1,20 @@
+.menu1, .menu2, .menu3, .menu4 {
+    width:62%;
+    border-radius: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.carousel-item{
+    background-color: #E45826;
+}
+
+  .testimonial-text1{
+    font-size: 2vw;
+    line-height: 1.5;
+    padding-right: 5%;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Indie Flower', cursive;
+  }

@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  font-family: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+ color:#E45826;
+ font-size: 1.5 rem;
+}
+
+li {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.main-container {
+  width: 100%;
+  height: 25rem;
+  z-index: -2;
+  position: relative;
+}
+.main-container-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-container-dark {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 25rem;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  opacity: 0.5;
+}
+
+.nav {
+ 
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  color: white;
+  padding-right: 6rem;
+  padding-left: 6rem;
+}
+
+.links {
+  display: flex;
+
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 1rem;
+  width: 3%;
+}
+.links li {
+  margin-right: 2rem;
+  
+}
+
+.search-bar {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  top: 10rem;
+  border-radius: 1px solid #fff;
+}
+
+.search-bar > input {
+  min-width: 30rem;
+  height: 3rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color:black;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.items-card-box {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  gap: 2rem;
+  background-color:#E6D5B8
+}
+
+
+
+.items-card {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border:10px solid black  ;
+  background-color:#ECECEC;
+}
+.items-card-img {
+  
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+}
+.items-card-img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+ 
+}
+.items-card-text {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color:black;
+ 
+}
+ /* testimonial section  */
+#testimonials{
+  background-color:#BB9981;
+}
+.testimonial-heading{
+  font-size: 1.5rem;
+  text-align: left;
+}
+.testimonial-text1{
+  font-size: 2.6vw;
+  line-height: 1.5;
+  padding-right: 4%;
+  text-align: center;
+}
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* footer  */
+
+#footer {
+  width: 100%;
+  height: 12rem;
+ padding-top: 5%;
+  align-items: center;
+  color: white;
+  background-color: #534340;
+  padding-left: 30rem;
+}
+
+.social-icon{
+  margin:10px 10px;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
